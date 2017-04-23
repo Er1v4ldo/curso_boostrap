@@ -25,9 +25,20 @@ header h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: .3s;
-    
 }
 
+@media(in-width: 992px) {
+    #e-delivery-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+}
+
+.edelivery-bannerWapper {
+    position: relative;
+    height: 100%;
+}
 #paineis-sobre {
 	margin-top: 20px;
 }

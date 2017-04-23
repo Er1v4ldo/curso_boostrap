@@ -32,56 +32,63 @@
                 </div>
             </nav>
             
-            <div id="e-delivery-banner">
-                <h1>e-Delivery</h1>
-                <p>O melhor lugar para saciar sua fome</p>
-                <button class="btn btn-success btn-lg">Contate nos agora</button>
+            <div class="container edelivery-bannerWapper">
+                <div id="e-delivery-banner">
+                    <h1>e-Delivery</h1>
+                    <p>O melhor lugar para saciar sua fome</p>
+                    <button class="btn btn-success btn-lg">Contate nos agora</button>
+                </div>
             </div>
         </header>
-        
-        <section id="sobre-nos" class="container">
-            <h2>Sobre Nós</h2>
-            <img class="img-responsive" src="img/empresa.jpg" alt="">
 
-            <div class="panel-group" id="paineis-sobre">
-                <div class="panel panel-default">
-                    <div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
-                        <h3 class="panel-title">Desde 1935</h3>
-                    </div>
+        <div class="row">
+            <section id="sobre-nos" class="container">
+                <h2>Sobre Nós</h2>
+                <div class="col-sm-6">
+                    <img class="img-responsive" src="img/empresa.jpg" alt="">
+                </div>  
+                
+                <div class="col-sm-6">
+                    <div class="panel-group" id="paineis-sobre">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
+                                <h3 class="panel-title">Desde 1935</h3>
+                            </div>
 
-                    <div class="collapse in" id="primeiro-paragrafo">
-                        <div class="panel-body">
-                            Desde 1935 trazendo casas, mansões e prédios lindos para o mundo
+                            <div class="collapse in" id="primeiro-paragrafo">
+                                <div class="panel-body">
+                                    Desde 1935 trazendo casas, mansões e prédios lindos para o mundo
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
+                                <h3 class="panel-title">Preços acessíveis</h3>
+                            </div>
+
+                            <div id="segundo-paragrafo" class="collapse">
+                                <div class="panel-body">
+                                    Alegria para colaborar com um mundo mais bonito
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
+                                <h3 class="panel-title">Alegria em colaborar para um mundo mais bonito</h3>
+                            </div>
+
+                            <div id="terceiro-paragrafo" class="collapse">
+                                <div class="panel-body">
+                                    Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
-                        <h3 class="panel-title">Preços acessíveis</h3>
-                    </div>
-
-                    <div id="segundo-paragrafo" class="collapse">
-                        <div class="panel-body">
-                            Alegria para colaborar com um mundo mais bonito
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
-                        <h3 class="panel-title">Alegria em colaborar para um mundo mais bonito</h3>
-                    </div>
-
-                    <div id="terceiro-paragrafo" class="collapse">
-                        <div class="panel-body">
-                            Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+            </section>
+        </div>
         <div class="jumbotron">
             <div class="container">
                 <h3>Mais de 300 prêmios em design e em conforto.</h3>
@@ -91,45 +98,58 @@
 
         <section id="novos-projetos" class="container">
             <h2>Novos Projetos</h2>
-            <figure class="thumbnail">
-                <img src="img/projetos/residencia-ludi.png" alt="Residencia Ludi">
-                <figcaption class="caption">
-                    <h3>Residência Ludi</h3>
-                    <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
-                </figcaption>
-            </figure>
 
-            <figure class="thumbnail">
-                <img src="img/projetos/casa-castelo.png" alt="Casa Castelo">
-                <figcaption class="caption">
-                    <h3>Casa Castelo</h3>
-                    <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
-                </figcaption>
-            </figure>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <figure class="thumbnail">
+                        <img src="img/projetos/residencia-ludi.png" alt="Residencia Ludi">
+                        <figcaption class="caption">
+                            <h3>Residência Ludi</h3>
+                            <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <figure class="thumbnail">
+                        <img src="img/projetos/casa-castelo.png" alt="Casa Castelo">
+                        <figcaption class="caption">
+                            <h3>Casa Castelo</h3>
+                            <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <figure class="thumbnail">
+                        <img src="img/projetos/casa-lago.png" alt="Casa do Lago">
+                        <figcaption class="caption">
+                            <h3>Casa do Lago</h3>
+                            <p>A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+                        </figcaption>
+                    </figure>
+                </div>
 
-            <figure class="thumbnail">
-                <img src="img/projetos/casa-lago.png" alt="Casa do Lago">
-                <figcaption class="caption">
-                    <h3>Casa do Lago</h3>
-                    <p>A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
-                </figcaption>
-            </figure>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <figure class="thumbnail">
+                        <img src="img/projetos/mercado-marapira.png" alt="Mercado Marapira">
+                        <figcaption class="caption">
+                            <h3>Mercado Marapira</h3>
+                            <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
+                        </figcaption>
+                    </figure>
+                </div>
 
-            <figure class="thumbnail">
-                <img src="img/projetos/mercado-marapira.png" alt="Mercado Marapira">
-                <figcaption class="caption">
-                    <h3>Mercado Marapira</h3>
-                    <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
-                </figcaption>
-            </figure>
-
-            <figure class="thumbnail">
-                <img src="img/projetos/palacio-dionisio.png" alt="Palacio Dionisio">
-                <figcaption class="caption">
-                    <h3>Palácio Dionísio</h3>
-                    <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
-                </figcaption>
-            </figure>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <figure class="thumbnail">
+                        <img src="img/projetos/palacio-dionisio.png" alt="Palacio Dionisio">
+                        <figcaption class="caption">
+                            <h3>Palácio Dionísio</h3>
+                            <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
         </section>
 
         <section id="depoimento">
@@ -183,53 +203,56 @@
             </div>
         </section>
 
-        <section id="video" class="container">
-            <h2>Video Constitucional</h2>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ze_-cZdMYQA" frameborder="0" allowfullscreen></iframe>
+        <div class="container">
+            <div class="row">
+                <section id="video" class="col-sm-6">
+                    <h2>Video Constitucional</h2>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ze_-cZdMYQA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section id="contato" class="col-sm-6">
+                    <h2>Contato</h2>
+                    <p>Entre em contato conosco</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="input-nome">Nome:</label>
+                            <input class="form-control" id="input-nome" type="text" placeholder="Digite seu nome"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-email">Email:</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">@</div>
+                                <input class="form-control" id="input-email" type="email" placeholder="email@exemplo.com"/>
+                            </div>
+                        </div>
+
+                        <div class="grupo-radio">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="tipo-pessoa" checked/>Pessoa Fisica
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="tipo-pessoa"/>Pessoa Jurica
+                                </label>
+                            </div>
+                        </div><!--
+
+                        --><select class="form-control grupo-selecao">
+                            <option disabled selected>Tipo de Imóvel</option>
+                            <option>Casa</option>
+                            <option>Apartamento</option>
+                            <option>Mansão</option>
+                        </select>
+
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </form>
+                </section>
             </div>
-        </section>
-
-        <section id="contato" class="container">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco</p>
-            <form>
-                <div class="form-group">
-                    <label for="input-nome">Nome:</label>
-                    <input class="form-control" id="input-nome" type="text" placeholder="Digite seu nome"/>
-                </div>
-                <div class="form-group">
-                    <label for="input-email">Email:</label>
-                    <div class="input-group">
-                        <div class="input-group-addon">@</div>
-                        <input class="form-control" id="input-email" type="email" placeholder="email@exemplo.com"/>
-                    </div>
-                </div>
-
-                <div class="grupo-radio">
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="tipo-pessoa" checked/>Pessoa Fisica
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="tipo-pessoa"/>Pessoa Jurica
-                        </label>
-                    </div>
-                </div><!--
-                
-                --><select class="form-control grupo-selecao">
-                    <option disabled selected>Tipo de Imóvel</option>
-                    <option>Casa</option>
-                    <option>Apartamento</option>
-                    <option>Mansão</option>
-                </select>
-
-                <button class="btn btn-primary" type="submit">Enviar</button>
-            </form>
-        </section>
-
+        </div>
         <footer>
             <address>
                 <strong>e-Delivery</strong><br>
